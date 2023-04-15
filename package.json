@@ -1,0 +1,17 @@
+{
+  "name": "rkeelan-website",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Richard Keelan's personal website - fiction writing portfolio",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.9.3"
+  },
+  "private": true
+}

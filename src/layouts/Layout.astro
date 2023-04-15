@@ -1,0 +1,80 @@
+---
+export interface Props {
+  title?: string;
+  canonicalPath?: string;
+  frontmatter?: {
+    title?: string;
+    canonicalPath?: string;
+  };
+}
+
+const { title, canonicalPath = '', frontmatter } = Astro.props;
+// For Markdown files, frontmatter is available as well
+const pageTitle = title || frontmatter?.title || 'RKeelan.com';
+const pagePath = canonicalPath || frontmatter?.canonicalPath || '';
+const cssFiles = ["/css/styles.css"];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{pageTitle}</title>
+    <link rel="canonical" href={`https://www.rkeelan.com/${pagePath}`}>
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="manifest" href="/manifest.json">
+    {cssFiles.map(cssFile => (
+        <link rel="stylesheet" href={cssFile}>
+    ))}
+    
+    <!-- Person JSON-LD -->
+    <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Richard Keelan",
+      "url": "https://www.rkeelan.com",
+      "sameAs": [
+        "https://github.com/rkeelan",
+        "https://rkeelan.github.io",
+        "https://twitter.com/r_keelan",
+        "https://www.linkedin.com/in/richard-keelan-79793611/"
+      ],
+      "jobTitle": "Software Engineer",
+      "knowsAbout": ["AI", "Programming", "Writing", "Software Engineering", "Embedded Systems"],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Keel Inc",
+        "url": "https://github.com/Keel-Inc"
+      },
+      "affiliation": {
+        "@type": "Organization", 
+        "name": "CompactFrameFormat",
+        "url": "https://github.com/CompactFrameFormat"
+      }
+    })}
+    </script>
+</head>
+<body>
+    <header>
+        <h1>{pageTitle}</h1>
+    </header>
+    <nav>
+        <ul class="menu-navigation-container">
+            <li><a href="/index.html">About</a></li>
+            <li><a href="/stories.html">Stories</a></li>
+        </ul>
+    </nav>
+    <main class="content">
+        <slot />
+    </main>
+    <footer>
+        &copy; 2025 RKeelan. All rights reserved.
+    </footer>
+</body>
+</html> 
