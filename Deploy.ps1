@@ -1,6 +1,6 @@
 # Copy the website
 
-$root = "C:\Users\RKeelan\OneDrive\Writing\Website"
+$root = "C:\Users\RKeelan\Src\RKeelan.com"
 $srcFolder = Join-Path $root "Site"
 $destFolder = Join-Path $root "rkeelan"
 
