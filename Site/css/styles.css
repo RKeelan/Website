@@ -16,6 +16,9 @@ header {
 body {
     font-family: "Univers Light", sans-serif;
     line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* Menu navigation styles */
@@ -45,7 +48,6 @@ body {
     color: #ccc;
     background-color: #555;
 }
-
 
 /* Main content styles */
 main {
@@ -79,20 +81,20 @@ a {
     color: inherit;
     text-decoration: underline;
     text-underline-offset: 0.3em;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: inherit;
-  }
-  
-  a:hover,
-  a:focus,
-  a:active {
+}
+
+a:hover,
+a:focus,
+a:active {
     color: inherit;
     text-decoration: underline;
     text-underline-offset: 0.3em;
     text-decoration-thickness: 3px;
-  }
+}
 
 /* Footer styles */
 footer {
