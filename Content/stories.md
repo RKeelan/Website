@@ -8,7 +8,7 @@
 
 ## 2021
 
-* "I Am A Quine, I Cannot Change" in Polar Borealis [PDF](https://polarborealis.ca/wp-content/uploads/2021/09/POLAR-BOREALIS-19-Aug-Sep-2021-1.pdf), September 10th, 2021.
+* "I Am A Quine, I Cannot Change" in Polar Borealis [[PDF](https://polarborealis.ca/wp-content/uploads/2021/09/POLAR-BOREALIS-19-Aug-Sep-2021-1.pdf)], September 10th, 2021.
 	* A computer program on a space probe far from home.
 	* About 500 words.
 
@@ -35,6 +35,6 @@
 
 ## 2016
 
-* "I Change Therefore I Am" in AE Micro 2016 [PDF](http://aescifi.ca/wp/wp-content/uploads/2018/09/ae-micro-2016.pdf), May 2nd, 2016.
+* "I Change Therefore I Am" in AE Micro 2016 [[PDF](http://aescifi.ca/wp/wp-content/uploads/2018/09/ae-micro-2016.pdf)], May 2nd, 2016.
 	* A story about the perils of giving commit access to your source code repository.
 	* About 200 words.
