@@ -29,7 +29,7 @@
 		* Okay, okay, it’s way more than a Quality Incident.
 	* About 900 words.
 
-* "Piecework Hangman" in [Daily Science Fiction](https://dailysciencefiction.com/fantasy/high-fantasy/r-keelan/piecework-hangman), May 14th, 2018.
+* "[Piecework Hangman](/s/piecework-hangman.html)" in Daily Science Fiction, May 14th, 2018.
 	* A story about an honest man and his day’s work.
 	About 500 words.
 
