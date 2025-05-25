@@ -1,5 +1,11 @@
 # RKeelan - Stories
 
+## 2025
+
+* "None of Us Irreplaceable" in [Unnamed Journal](https://www.patreon.com/posts/unnamed-journal-121892472), Winter, 2025.
+	* A besieged city needs a change of leadership.
+	* About 5,000 words.
+
 ## 2023
 
 * "Oh Exemplary Restraint, So Rare in the Modern World!" in [On Spec Magazine](https://onspec.ca/on-spec-back-issues/), Fall, 2023.
