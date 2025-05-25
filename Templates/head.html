@@ -2,6 +2,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ site_title }}</title>
+    <link rel="canonical" href="https://www.rkeelan.com/{{ canonical_path }}">
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -11,4 +12,29 @@
     {% for css_file in css_files %}
     <link rel="stylesheet" href="{{ css_file }}">
     {% endfor %}
+    
+    <!-- Person JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Richard Keelan",
+      "url": "https://www.rkeelan.com",
+      "sameAs": [
+        "https://github.com/rkeelan",
+        "https://www.rkeelan.com",
+        "https://rkeelan.github.io",
+        "https://twitter.com/r_keelan",
+      ],
+      "jobTitle": "Software Engineer",
+      "knowsAbout": ["AI", "Programming", "Writing", "Software Engineering", "Embedded Systems"]
+    }
+    </script>
+    
+    {% if content_jsonld %}
+    <!-- Content JSON-LD -->
+    <script type="application/ld+json">
+    {{ content_jsonld|safe }}
+    </script>
+    {% endif %}
 </head>
