@@ -1,5 +1,7 @@
 # I Change Therefore I Am
 
+_Originally published in AE Micro, 2016._
+
 Aaron stopped by Bruce's cubicle on his way out. It was past seven, but
 he knew Bruce would be there.
 
