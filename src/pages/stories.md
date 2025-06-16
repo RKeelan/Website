@@ -1,4 +1,8 @@
-# RKeelan - Stories
+---
+layout: ../layouts/Layout.astro
+title: "RKeelan - Stories"
+canonicalPath: "stories.html"
+---
 
 ## 2025
 
@@ -32,15 +36,15 @@
 
 * "Disposal of Non-Conforming Product" in [The Arcanist](https://thearcanist.io/disposal-of-non-conforming-product-479218d48ba7), June 1st, 2018.
 	* A story about a Quality Incident.
-		* Okay, okay, it’s way more than a Quality Incident.
+		* Okay, okay, it's way more than a Quality Incident.
 	* About 900 words.
 
 * "[Piecework Hangman](/s/piecework-hangman.html)" in Daily Science Fiction, May 14th, 2018.
-	* A story about an honest man and his day’s work.
-	About 500 words.
+	* A story about an honest man and his day's work.
+	* About 500 words.
 
 ## 2016
 
 * "[I Change Therefore I Am](/s/i-change-therefore-i-am.html)" in AE Micro 2016, May 2nd, 2016.
 	* A story about the perils of giving commit access to your source code repository.
-	* About 200 words.
+	* About 200 words. 

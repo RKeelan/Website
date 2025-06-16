@@ -1,4 +1,8 @@
-# Piecework Hangman
+---
+layout: ../../layouts/Layout.astro
+title: "Piecework Hangman"
+canonicalPath: "s/piecework-hangman.html"
+---
 
 _Originally published in Daily Science Fiction, 2018._
 

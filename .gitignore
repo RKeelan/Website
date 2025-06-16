@@ -16,5 +16,11 @@
 # Built Visual Studio Code Extensions
 *.vsix
 
-# Repo-specific
-Site
+# Astro
+node_modules/
+dist/
+.astro/
+
+# Node.js
+npm-debug.log*
+.npm

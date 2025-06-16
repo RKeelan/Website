@@ -1,5 +1,0 @@
-content_dir = "Content"
-templates_dir = "Templates"
-static_dir = "Static"
-css_files = [ "/static/css/styles.css" ]  # Site-wide CSS files
-site_dir = "Site"
