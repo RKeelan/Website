@@ -39,12 +39,12 @@ canonicalPath: "stories.html"
 		* Okay, okay, it's way more than a Quality Incident.
 	* About 900 words.
 
-* "[Piecework Hangman](/s/piecework-hangman.html)" in Daily Science Fiction, May 14th, 2018.
+* "[Piecework Hangman](/stories/piecework-hangman.html)" in Daily Science Fiction, May 14th, 2018.
 	* A story about an honest man and his day's work.
 	* About 500 words.
 
 ## 2016
 
-* "[I Change Therefore I Am](/s/i-change-therefore-i-am.html)" in AE Micro 2016, May 2nd, 2016.
+* "[I Change Therefore I Am](/stories/i-change-therefore-i-am.html)" in AE Micro 2016, May 2nd, 2016.
 	* A story about the perils of giving commit access to your source code repository.
 	* About 200 words. 

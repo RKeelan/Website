@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/Layout.astro
 title: "I Change Therefore I Am"
-canonicalPath: "s/i-change-therefore-i-am.html"
+canonicalPath: "stories/i-change-therefore-i-am.html"
 ---
 
 _Originally published in AE Micro, 2016._
