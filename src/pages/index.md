@@ -8,6 +8,9 @@ I am a writer and programmer living in Canada. See below for my published storie
 
 ## 2025
 
+* "Hard Points" in [James Gunn’s Ad Astra](https://www.adastrasf.com/hard-points/), July, 2025.
+	* "Lockdown initiated. Virate presence detected."
+	* About 5,000 words.
 * "None of Us Irreplaceable" in [Unnamed Journal](https://www.patreon.com/posts/unnamed-journal-121892472), Winter, 2025.
 	* A besieged city needs a change of leadership.
 	* About 5,000 words.
@@ -35,12 +38,10 @@ I am a writer and programmer living in Canada. See below for my published storie
 * "The Waltzing Tree" in [Over the Rainbow: Folk and Fairy Tales from the Margins](https://www.goodreads.com/en/book/show/40539590-over-the-rainbow), edited by Derek Newman-Stille and published by Exile Editions, December 2018.
 	* A man, a tree, and their house.
 	* About 3,000 words.
-
 * "Disposal of Non-Conforming Product" in [The Arcanist](https://thearcanist.io/disposal-of-non-conforming-product-479218d48ba7), June 1st, 2018.
 	* A story about a Quality Incident.
 		* Okay, okay, it's way more than a Quality Incident.
 	* About 900 words.
-
 * "[Piecework Hangman](/stories/piecework-hangman.html)" in Daily Science Fiction, May 14th, 2018.
 	* A story about an honest man and his day's work.
 	* About 500 words.
