@@ -3,7 +3,7 @@ Write-Host "Building Astro site..."
 npm run build
 
 # Copy the website
-$root = "C:\Users\RKeelan\Src\RKeelan.com"
+$root = "C:\Users\RKeelan\Src\RKeelan\RKeelan.com"
 $srcFolder = Join-Path $root "dist"
 $destFolder = Join-Path $root "rkeelan"
 
