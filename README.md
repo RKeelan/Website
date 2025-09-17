@@ -1,5 +1,7 @@
 # Richard Keelan's Website
 
+[![Deploy Status](https://github.com/rkeelan/rkeelan.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/rkeelan/rkeelan.com/actions/workflows/deploy.yml)
+
 Richard Keelan's personal website - fiction writing portfolio
 
 All commands are run from the root of the project:
