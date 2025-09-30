@@ -4,7 +4,7 @@ title: "RKeelan"
 canonicalPath: "index.html"
 ---
 
-I am a writer and programmer living in Canada. See below for my published stories.
+I am a writer and programmer living in Canada. Find me on Twitter/X as [@R_Keelan](https://x.com/R_Keelan), or on Bluesky as [@rkeelan](https://bsky.app/profile/rkeelan.bsky.social), and see below for my published stories.
 
 ## 2025
 
