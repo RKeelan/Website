@@ -11,7 +11,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v6
       - name: Install, build, and validate site
-        uses: withastro/action@v5
+        uses: withastro/action@v6
         with:
           path: .
           node-version: 22
