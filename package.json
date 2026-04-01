@@ -9,13 +9,13 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "lint:pkg": "npmpackagejsonlint package.json"
+    "lint:pkg": "npmPkgJsonLint ."
   },
   "dependencies": {
-    "astro": "^6.0.8"
+    "astro": "6.0.8"
   },
   "devDependencies": {
-    "npmpackagejsonlint": "3.7.1"
+    "npm-package-json-lint": "10.0.0"
   },
   "private": true
 }
