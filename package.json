@@ -12,7 +12,7 @@
     "lint:pkg": "npmPkgJsonLint ."
   },
   "dependencies": {
-    "astro": "6.1.8"
+    "astro": "6.1.9"
   },
   "devDependencies": {
     "npm-package-json-lint": "10.2.1"
