@@ -6,6 +6,12 @@ canonicalPath: "index.html"
 
 I am a writer and programmer living in Canada. Find me on Twitter/X as [@R_Keelan](https://x.com/R_Keelan), or on Bluesky as [@rkeelan](https://bsky.app/profile/rkeelan.bsky.social), and see below for my published stories.
 
+## 2026
+
+* "In Aspect, Word, and Deed" in [Unnamed Journal](https://www.patreon.com/posts/unnamed-journal-159050729), Spring, 2026.
+	* In Papal Avignon, a man sent to arrest a heretic finds the Word of God.
+	* About 4,900 words.
+
 ## 2025
 
 * "Hard Points" in [James Gunn’s Ad Astra](https://www.adastrasf.com/hard-points/), July, 2025.
