@@ -1,6 +1,6 @@
 # Richard Keelan's Website
 
-[![Deploy Status](https://github.com/rkeelan/rkeelan.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/rkeelan/rkeelan.com/actions/workflows/deploy.yml)
+[![Deploy Status](https://github.com/RKeelan/Website/actions/workflows/deploy.yml/badge.svg)](https://github.com/RKeelan/Website/actions/workflows/deploy.yml)
 
 Richard Keelan's personal website - fiction writing portfolio
 
