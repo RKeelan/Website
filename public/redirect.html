@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- The query carries an authorisation code, so no request from here may name this page. -->
+    <meta name="referrer" content="no-referrer" />
+    <meta name="robots" content="noindex" />
+    <title>Signing in</title>
+    <script>
+      // Some OAuth providers register only public HTTPS callback URLs, so a tool
+      // on this machine that signs in through one of them registers this page and
+      // listens on the loopback. This passes the query on to it unread. The
+      // target is fixed, so a link here can reach no other local port. The
+      // listener lives in PythonTools' python_tools/oauth.py.
+      if (location.search) {
+        location.replace("http://localhost:8732/redirect" + location.search);
+      }
+    </script>
+  </head>
+  <body>
+    <p>Returning to the app you signed in from. If nothing happens, copy this page's address and paste it at the app's prompt.</p>
+  </body>
+</html>
