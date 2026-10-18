@@ -8,9 +8,9 @@ Personal website built with Astro (static site generation) and deployed to GitHu
 
 ## Commands
 
-- `npm run dev` / `npm start` — local dev server (localhost:4321)
-- `npm run build` — production build to `./dist/`
-- `npm run preview` — preview production build locally
+- `bun run dev` / `bun start` — local dev server (localhost:4321)
+- `bun run build` — production build to `./dist/`
+- `bun run preview` — preview production build locally
 
 No test or lint commands are configured.
 
@@ -25,4 +25,4 @@ This is a minimal Astro static site. The key pieces:
 
 ## Deployment
 
-Pushes to `main` trigger a GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds and deploys to GitHub Pages using `withastro/action@v5` on Node.js 20.
+Pushes to `main` trigger a GitHub Actions workflow (`.github/workflows/deploy.yml`) that builds and deploys to GitHub Pages using `withastro/action@v6` on Bun 1.4.3 (Node.js 22 is also installed).

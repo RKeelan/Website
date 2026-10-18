@@ -15,4 +15,4 @@ jobs:
         with:
           path: .
           node-version: 22
-          package-manager: npm
+          package-manager: bun@1.4.3
