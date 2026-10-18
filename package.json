@@ -4,11 +4,10 @@
   "version": "1.0.0",
   "description": "Richard Keelan's personal website - fiction writing portfolio",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro",
+    "dev": "bun --bun astro dev",
+    "start": "bun --bun astro dev",
+    "build": "bun --bun astro build",
+    "preview": "bun --bun astro preview",
     "lint:pkg": "npmPkgJsonLint ."
   },
   "dependencies": {
