@@ -13,6 +13,9 @@ const { title, canonicalPath = '', frontmatter } = Astro.props;
 const pageTitle = title || frontmatter?.title || 'RKeelan.com';
 const pagePath = canonicalPath || frontmatter?.canonicalPath || '';
 const cssFiles = ["/css/styles.css"];
+// The deploy workflow rebuilds the site each 1 January, so the year stays current between pushes
+const currentYear = new Date().getFullYear();
+const copyrightYears = currentYear > 2023 ? `2023–${currentYear}` : '2023';
 ---
 
 <!DOCTYPE html>
@@ -101,7 +104,7 @@ const cssFiles = ["/css/styles.css"];
         <slot />
     </main>
     <footer>
-        &copy; 2025 RKeelan. All rights reserved.
+        &copy; {copyrightYears} RKeelan. All rights reserved.
     </footer>
     <script is:inline>
       (function () {
